@@ -7,12 +7,14 @@ class CommunityFortune extends Component {
   fortune = this.randomFortune();
 
   randomFortune() {
-    const fortunes = I18n.t("community_fortune.fortunes");
-    console.log("Available fortunes:", fortunes); // 디버깅용
-    if (!Array.isArray(fortunes)) {
+    const fortunes =
+      I18n.translations?.[I18n.locale]?.js?.community_fortune?.fortunes || [];
+
+    if (!Array.isArray(fortunes) || fortunes.length === 0) {
       console.error("Fortunes is not an array:", fortunes);
       return "Translation error";
     }
+
     const index = Math.floor(Math.random() * fortunes.length);
     return fortunes[index];
   }
