@@ -16,6 +16,11 @@ end
 
 require_relative "lib/community_fortune/engine"
 
+register_asset "stylesheets/common/community-fortune.scss"
+register_asset "images/cookie-left.png"
+register_asset "images/cookie-right.png"
+register_asset "images/paper.png"
+
 after_initialize do
   # Code which should run after Rails has finished booting
 end
