@@ -6,4 +6,9 @@ en:
           community_fortune: "Community Fortune"
   js:
     community_fortune:
-      placeholder: placeholder
+      fortune_label: "Today's Developer Fortune"
+      fortunes:
+        - "Your code runs fine even without semicolons today."
+        - "You can find a missing parenthesis in 30,000 lines of code."
+        - "Your commit message might move your teammates' hearts."
+        - "A merge without review goes unnoticed."
