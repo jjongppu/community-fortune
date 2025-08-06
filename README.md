@@ -1,4 +1,4 @@
-# **Plugin Name** Plugin
+# **Community Fortune** Plugin
 
 **Plugin Summary**
 

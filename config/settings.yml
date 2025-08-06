@@ -1,4 +1,4 @@
-TODO_plugin_name:
-  plugin_name_enabled:
+community_fortune:
+  community_fortune_enabled:
     default: false
     client: true

@@ -3,7 +3,7 @@ en:
     admin:
       site_settings:
         categories:
-          TODO_plugin_name: "Plugin Name"
+          community_fortune: "Community Fortune"
   js:
-    discourse_plugin_name:
+    community_fortune:
       placeholder: placeholder
