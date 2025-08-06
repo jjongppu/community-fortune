@@ -4,13 +4,16 @@ import { action } from "@ember/object";
 import { hbs } from "ember-cli-htmlbars";
 import I18n from "I18n";
 import { setComponentTemplate } from "@ember/component";
+import { ajax } from "discourse/lib/ajax";
 
 class CommunityFortune extends Component {
   @tracked opened = false;
   @tracked fortune = "";
 
   @action
-  openCookie() {
+  async openCookie() {
+    await ajax("/community-fortune/examples.json");
+
     const fortunes =
       I18n.translations?.[I18n.locale]?.js?.community_fortune?.fortunes || [];
 
