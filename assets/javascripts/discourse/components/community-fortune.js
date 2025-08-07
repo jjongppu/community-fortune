@@ -8,6 +8,7 @@ import { inject as service } from '@ember/service';
 
 class CommunityFortune extends Component {
   @tracked opened = false;
+  @tracked hidden = true;
   @tracked fortune = "";
   @service currentUser;
 
