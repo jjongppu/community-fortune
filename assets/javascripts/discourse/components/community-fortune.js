@@ -11,6 +11,7 @@ class CommunityFortune extends Component {
 
   @action
   openCookie() {
+    if (this.opened) return; // 이미 열려 있으면 다시 실행 금지
     const fortunes =
       I18n.translations?.[I18n.locale]?.js?.community_fortune?.fortunes || [];
 
