@@ -54,7 +54,7 @@ export default setComponentTemplate(
   hbs`
     <div class="fortune-cookie-container {{if this.opened \"opened\"}}">
       <div class="cookie-container">
-        <img src={{get-url "/plugins/community-fortune/images/cookie-left.png"}} class="cookie cookie-left" alt="left cookie" />
+        <img {{on "click" this.openCookie}} src={{get-url "/plugins/community-fortune/images/cookie-left.png"}} class="cookie cookie-left" alt="left cookie" />
 
         <div class="paper-strip paper-background">
           {{#if this.opened}}
@@ -62,7 +62,7 @@ export default setComponentTemplate(
           {{/if}}
         </div>
 
-        <img src={{get-url "/plugins/community-fortune/images/cookie-right.png"}} class="cookie cookie-right" alt="right cookie" />
+        <img {{on "click" this.openCookie}} src={{get-url "/plugins/community-fortune/images/cookie-right.png"}} class="cookie cookie-right" alt="right cookie" />
       </div>
     </div>
   `,
