@@ -1,46 +1,66 @@
-.fortune-cookie-container {
-  position: relative;
-  margin: 40px 0;
+.fortune-plugin-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  .cookie-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  .fortune-cookie-container {
+    position: relative;
+    display: inline-block;
+    margin: 40px 0;
 
-  .cookie {
-    height: 150px;
-    transition: transform 0.8s ease;
-  }
-
-  .paper-strip {
-    // margin: 0 auto;
-    overflow: hidden;
-    white-space: nowrap;
-    background-image: url("/plugins/community-fortune/images/paper.png");
-    // background-repeat: no-repeat;
-    // background-position: center;
-    background-size: contain; //
-    height: 150px;
-    max-width: 0;
-    opacity: 0;
-    transition: max-width 1.5s ease 0.1s;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    .fortune-text {
-      font-size: 16px;
-      font-weight: bold;
-      padding: 0 10px;
+    .cookie-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-  }
 
-  &.opened {
+    .cookie {
+      height: 150px;
+      transition: transform 0.8s ease;
+    }
+
     .paper-strip {
-      max-width: 1000px; // 적당히 넉넉한 값
-      opacity: 1;
+      // margin: 0 auto;
+      overflow: hidden;
+      white-space: nowrap;
+      background-image: url("/plugins/community-fortune/images/paper.png");
+      // background-repeat: no-repeat;
+      // background-position: center;
+      background-size: contain; //
+      height: 150px;
+      max-width: 0;
+      opacity: 0;
+      transition: max-width 1.5s ease 0.1s;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .fortune-text {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0 10px;
+      }
+    }
+      .fortune-dismiss-btn {
+        position:absolute;
+        top:5px;
+        right:5px;
+        width:15px;
+        height:15px;
+        cursor:pointer;
+        background:transparent;
+      }
+    
+
+    &.opened {
+      .paper-strip {
+        max-width: 1000px; // 적당히 넉넉한 값
+        opacity: 1;
+      }
     }
   }
+}
+.fortune-cookie-container.hidden {
+  display: none;
 }
