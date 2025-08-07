@@ -4,10 +4,12 @@ import { action } from "@ember/object";
 import { hbs } from "ember-cli-htmlbars";
 import I18n from "I18n";
 import { setComponentTemplate } from "@ember/component";
+import { inject as service } from '@ember/service';
 
 class CommunityFortune extends Component {
   @tracked opened = false;
   @tracked fortune = "";
+  @service currentUser;
 
   get particleCount() {
     return Array.from({ length: 20 }, (_, i) => i + 1);
@@ -15,7 +17,7 @@ class CommunityFortune extends Component {
 
   get dailyIndex() {
     const today = new Date().toISOString().slice(0, 10); // "2025-08-07"
-    const userIdentifier = this.args.currentUser?.username || "anonymous";
+    const userIdentifier = this.currentUser?.username || "anonymous";
     const seed = `${userIdentifier}-${today}`;
 
     let hash = 0;
