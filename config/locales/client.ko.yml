@@ -3,7 +3,203 @@ ko:
     community_fortune:
       fortune_label: "오늘의 개발자 운세"
       fortunes:
-        - "오늘은 세미콜론 없이도 코드가 잘 돌아갑니다."
-        - "30000줄 코드에서 빠진 괄호 하나를 찾을 수 있습니다."
-        - "커밋 메시지가 팀원들의 마음을 울릴지도 몰라요."
-        - "리뷰 없이 머지되었는데, 아무도 몰랐어요."
+        - 오늘은 Metadata API 배포가 번개처럼 빠릅니다.
+        - Change Set 없이도 배포가 끝날 기세입니다.
+        - VSCode + Salesforce CLI 충돌이 사라질 운명입니다.
+        - 누군가 당신의 LWC 컴포넌트 구조를 보고 감탄할지도 몰라요.
+        - 오늘은 org 간 배포 스트레스에서 해방됩니다.
+        - CLI에서 인증 만료가 떠도 당황하지 않을 거예요.
+        - 오늘은 Scratch Org와 Source Push에 관한 질문이 몰려듭니다.
+        - 당신의 Apex 로그 디버깅 실력, 오늘은 전성기입니다.
+        - 오늘은 프로파일 수정이 한 번에 됩니다.
+        - API Limit이 남아돕니다.
+        - Automation 관련한 좋은 아이디어가 떠오릅니다.
+        - List View 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - Automation 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Source Push 관련한 좋은 아이디어가 떠오릅니다.
+        - Record Type 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - Metadata API 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - Login History 관련 오류가 사라질 것 같습니다.
+        - Change Set 덕분에 상사가 감동할 수도 있어요.
+        - LWC 덕분에 상사가 감동할 수도 있어요.
+        - Object Manager 화면이 평소보다 빨리 로딩됩니다.
+        - 오늘은 List View이(가) 평소보다 쉽게 느껴집니다.
+        - 누군가 당신의 LWC 설정을 보고 감탄할지도 몰라요.
+        - 누군가 당신의 List View 설정을 보고 감탄할지도 몰라요.
+        - 누군가 당신의 API Limit 설정을 보고 감탄할지도 몰라요.
+        - Permission Set 관련한 좋은 아이디어가 떠오릅니다.
+        - Aura 관련한 좋은 아이디어가 떠오릅니다.
+        - Page Layout 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - 당신의 Page Layout 실력, 오늘은 전성기입니다.
+        - Scratch Org 관련한 좋은 아이디어가 떠오릅니다.
+        - Deployment Error 관련한 좋은 아이디어가 떠오릅니다.
+        - Salesforce CLI 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - Scratch Org 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - Flow Builder 관련한 좋은 아이디어가 떠오릅니다.
+        - User Assignment 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Login History 없이도 배포가 성공할 것 같아요.
+        - Unlocked Package 덕분에 상사가 감동할 수도 있어요.
+        - 오늘은 VSCode이(가) 평소보다 쉽게 느껴집니다.
+        - Login History 화면이 평소보다 빨리 로딩됩니다.
+        - 누군가 당신의 Debug Log 설정을 보고 감탄할지도 몰라요.
+        - User Assignment 관련 오류가 사라질 것 같습니다.
+        - 오늘은 Schema Builder이(가) 평소보다 쉽게 느껴집니다.
+        - Object Manager 덕분에 상사가 감동할 수도 있어요.
+        - 당신의 Metadata API 실력, 오늘은 전성기입니다.
+        - Object Manager 관련 오류가 사라질 것 같습니다.
+        - Field History 관련한 좋은 아이디어가 떠오릅니다.
+        - 오늘은 Automation이(가) 평소보다 쉽게 느껴집니다.
+        - 당신의 SOQL 실력, 오늘은 전성기입니다.
+        - Test Class 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - 누군가 당신의 Permission Set 설정을 보고 감탄할지도 몰라요.
+        - 오늘은 Scratch Org이(가) 평소보다 쉽게 느껴집니다.
+        - 누군가 당신의 Workflow Rule 설정을 보고 감탄할지도 몰라요.
+        - Field History 화면이 평소보다 빨리 로딩됩니다.
+        - Scratch Org 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Unlocked Package 관련 오류가 사라질 것 같습니다.
+        - Deployment Error 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - Permission Set 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Lightning Page 관련한 좋은 아이디어가 떠오릅니다.
+        - Source Push 없이도 배포가 성공할 것 같아요.
+        - Aura 관련 오류가 사라질 것 같습니다.
+        - 누군가 당신의 Record Type 설정을 보고 감탄할지도 몰라요.
+        - SOQL 관련 오류가 사라질 것 같습니다.
+        - Automation 화면이 평소보다 빨리 로딩됩니다.
+        - User Assignment 화면이 평소보다 빨리 로딩됩니다.
+        - Debug Log 관련 오류가 사라질 것 같습니다.
+        - Login History 덕분에 상사가 감동할 수도 있어요.
+        - Metadata API 관련 오류가 사라질 것 같습니다.
+        - 오늘은 Apex이(가) 평소보다 쉽게 느껴집니다.
+        - Record Type 화면이 평소보다 빨리 로딩됩니다.
+        - SOQL 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - 누군가 당신의 Scratch Org 설정을 보고 감탄할지도 몰라요.
+        - Salesforce CLI 관련한 좋은 아이디어가 떠오릅니다.
+        - VSCode 없이도 배포가 성공할 것 같아요.
+        - Login History 관련한 좋은 아이디어가 떠오릅니다.
+        - Deployment Error 없이도 배포가 성공할 것 같아요.
+        - Salesforce CLI 관련 오류가 사라질 것 같습니다.
+        - 오늘은 Unlocked Package이(가) 평소보다 쉽게 느껴집니다.
+        - Session Timeout 없이도 배포가 성공할 것 같아요.
+        - Profile 덕분에 상사가 감동할 수도 있어요.
+        - Change Set 없이도 배포가 성공할 것 같아요.
+        - Permission Set 덕분에 상사가 감동할 수도 있어요.
+        - 오늘은 Session Timeout이(가) 평소보다 쉽게 느껴집니다.
+        - Apex 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Workflow Rule 덕분에 상사가 감동할 수도 있어요.
+        - 오늘은 LWC이(가) 평소보다 쉽게 느껴집니다.
+        - Flow Builder 관련 오류가 사라질 것 같습니다.
+        - Scratch Org 덕분에 상사가 감동할 수도 있어요.
+        - 당신의 Object Manager 실력, 오늘은 전성기입니다.
+        - Apex 덕분에 상사가 감동할 수도 있어요.
+        - Schema Builder 없이도 배포가 성공할 것 같아요.
+        - VSCode 관련한 좋은 아이디어가 떠오릅니다.
+        - Validation Rule 화면이 평소보다 빨리 로딩됩니다.
+        - 오늘은 User Assignment이(가) 평소보다 쉽게 느껴집니다.
+        - 당신의 Deployment Error 실력, 오늘은 전성기입니다.
+        - Session Timeout 관련 오류가 사라질 것 같습니다.
+        - Schema Builder 관련한 좋은 아이디어가 떠오릅니다.
+        - 당신의 Test Class 실력, 오늘은 전성기입니다.
+        - Deployment Error 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Object Manager 없이도 배포가 성공할 것 같아요.
+        - Automation 없이도 배포가 성공할 것 같아요.
+        - Validation Rule 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - 오늘은 Workflow Rule이(가) 평소보다 쉽게 느껴집니다.
+        - 당신의 Apex 실력, 오늘은 전성기입니다.
+        - 누군가 당신의 Aura 설정을 보고 감탄할지도 몰라요.
+        - 누군가 당신의 Lightning Page 설정을 보고 감탄할지도 몰라요.
+        - Scratch Org 관련 오류가 사라질 것 같습니다.
+        - 오늘은 Change Set이(가) 평소보다 쉽게 느껴집니다.
+        - LWC 없이도 배포가 성공할 것 같아요.
+        - Validation Rule 없이도 배포가 성공할 것 같아요.
+        - 당신의 VSCode 실력, 오늘은 전성기입니다.
+        - Session Timeout 관련한 좋은 아이디어가 떠오릅니다.
+        - 당신의 Aura 실력, 오늘은 전성기입니다.
+        - API Limit 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - Test Class 관련한 좋은 아이디어가 떠오릅니다.
+        - Flow Builder 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Field History 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - Login History 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Metadata API 덕분에 상사가 감동할 수도 있어요.
+        - Unlocked Package 없이도 배포가 성공할 것 같아요.
+        - Field History 없이도 배포가 성공할 것 같아요.
+        - Debug Log 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - 누군가 당신의 Unlocked Package 설정을 보고 감탄할지도 몰라요.
+        - 당신의 Scratch Org 실력, 오늘은 전성기입니다.
+        - Field History 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - 누군가 당신의 Field History 설정을 보고 감탄할지도 몰라요.
+        - 오늘은 SOQL이(가) 평소보다 쉽게 느껴집니다.
+        - Test Class 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - 당신의 Record Type 실력, 오늘은 전성기입니다.
+        - Unlocked Package 관련한 좋은 아이디어가 떠오릅니다.
+        - Lightning Page 관련 오류가 사라질 것 같습니다.
+        - Apex 관련한 좋은 아이디어가 떠오릅니다.
+        - Aura 덕분에 상사가 감동할 수도 있어요.
+        - 누군가 당신의 Login History 설정을 보고 감탄할지도 몰라요.
+        - 당신의 Source Push 실력, 오늘은 전성기입니다.
+        - Change Set 관련한 좋은 아이디어가 떠오릅니다.
+        - Workflow Rule 관련 오류가 사라질 것 같습니다.
+        - 당신의 Debug Log 실력, 오늘은 전성기입니다.
+        - Field History 관련 오류가 사라질 것 같습니다.
+        - Page Layout 관련 오류가 사라질 것 같습니다.
+        - VSCode 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - Debug Log 덕분에 상사가 감동할 수도 있어요.
+        - Login History 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - 누군가 당신의 Source Push 설정을 보고 감탄할지도 몰라요.
+        - Workflow Rule 화면이 평소보다 빨리 로딩됩니다.
+        - 오늘은 Deployment Error이(가) 평소보다 쉽게 느껴집니다.
+        - Lightning Page 화면이 평소보다 빨리 로딩됩니다.
+        - Change Set 관련 오류가 사라질 것 같습니다.
+        - LWC 화면이 평소보다 빨리 로딩됩니다.
+        - 당신의 Lightning Page 실력, 오늘은 전성기입니다.
+        - VSCode 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - 누군가 당신의 Flow Builder 설정을 보고 감탄할지도 몰라요.
+        - Metadata API 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - 오늘은 API Limit이(가) 평소보다 쉽게 느껴집니다.
+        - List View 덕분에 상사가 감동할 수도 있어요.
+        - Object Manager 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - VSCode 화면이 평소보다 빨리 로딩됩니다.
+        - SOQL 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Session Timeout 화면이 평소보다 빨리 로딩됩니다.
+        - Page Layout 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - 누군가 당신의 Object Manager 설정을 보고 감탄할지도 몰라요.
+        - Profile 화면이 평소보다 빨리 로딩됩니다.
+        - 누군가 당신의 SOQL 설정을 보고 감탄할지도 몰라요.
+        - Apex 화면이 평소보다 빨리 로딩됩니다.
+        - API Limit 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Salesforce CLI 없이도 배포가 성공할 것 같아요.
+        - Validation Rule 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Lightning Page 덕분에 상사가 감동할 수도 있어요.
+        - Lightning Page 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - Apex 없이도 배포가 성공할 것 같아요.
+        - Schema Builder 관련 오류가 사라질 것 같습니다.
+        - 누군가 당신의 Automation 설정을 보고 감탄할지도 몰라요.
+        - Debug Log 없이도 배포가 성공할 것 같아요.
+        - 당신의 Salesforce CLI 실력, 오늘은 전성기입니다.
+        - Validation Rule 덕분에 상사가 감동할 수도 있어요.
+        - Apex 관련 오류가 사라질 것 같습니다.
+        - Salesforce CLI 덕분에 상사가 감동할 수도 있어요.
+        - Aura 화면이 평소보다 빨리 로딩됩니다.
+        - 오늘은 Lightning Page이(가) 평소보다 쉽게 느껴집니다.
+        - 누군가 당신의 Apex 설정을 보고 감탄할지도 몰라요.
+        - Page Layout 덕분에 상사가 감동할 수도 있어요.
+        - Record Type 덕분에 상사가 감동할 수도 있어요.
+        - LWC 관련 오류가 사라질 것 같습니다.
+        - 오늘은 Login History이(가) 평소보다 쉽게 느껴집니다.
+        - Page Layout 화면이 평소보다 빨리 로딩됩니다.
+        - Salesforce CLI 문제를 Stack Exchange 없이 해결할 수 있어요.
+        - LWC 설정을 오늘은 처음부터 완벽히 해냅니다.
+        - Source Push 관련 오류가 사라질 것 같습니다.
+        - 오늘은 Validation Rule이(가) 평소보다 쉽게 느껴집니다.
+        - Validation Rule 관련한 좋은 아이디어가 떠오릅니다.
+        - 누군가 당신의 Metadata API 설정을 보고 감탄할지도 몰라요.
+        - Metadata API 없이도 배포가 성공할 것 같아요.
+        - Flow Builder 없이도 배포가 성공할 것 같아요.
+        - 오늘은 Metadata API이(가) 평소보다 쉽게 느껴집니다.
+        - Unlocked Package 화면이 평소보다 빨리 로딩됩니다.
+        - SOQL 덕분에 상사가 감동할 수도 있어요.
+        - SOQL 화면이 평소보다 빨리 로딩됩니다.
+        - Test Class 덕분에 상사가 감동할 수도 있어요.
+        - 누군가 당신의 Page Layout 설정을 보고 감탄할지도 몰라요.
+        - 당신의 Workflow Rule 실력, 오늘은 전성기입니다.
+        - Record Type 관련한 좋은 아이디어가 떠오릅니다.
+        - Schema Builder 화면이 평소보다 빨리 로딩됩니다.
