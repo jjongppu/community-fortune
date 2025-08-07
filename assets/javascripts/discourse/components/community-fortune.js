@@ -13,6 +13,21 @@ class CommunityFortune extends Component {
     return Array.from({ length: 20 }, (_, i) => i + 1);
   }
 
+  get dailyIndex() {
+    const today = new Date().toISOString().slice(0, 10); // "2025-08-07"
+    const userIdentifier = this.args.currentUser?.username || "anonymous";
+    const seed = `${userIdentifier}-${today}`;
+
+    let hash = 0;
+    for (let i = 0; i < seed.length; i++) {
+      const chr = seed.charCodeAt(i);
+      hash = (hash << 5) - hash + chr;
+      hash |= 0;
+    }
+
+    return Math.abs(hash);
+  }
+
   @action
   openCookie() {
     if (this.opened) return;
@@ -23,7 +38,7 @@ class CommunityFortune extends Component {
     if (!Array.isArray(fortunes) || fortunes.length === 0) {
       this.fortune = "Translation error";
     } else {
-      const index = Math.floor(Math.random() * fortunes.length);
+      const index = this.dailyIndex % fortunes.length;
       this.fortune = fortunes[index];
     }
 
