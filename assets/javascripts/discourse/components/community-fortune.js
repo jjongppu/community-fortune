@@ -38,11 +38,16 @@ class CommunityFortune extends Component {
     const fortunes =
       I18n.translations?.[I18n.locale]?.js?.community_fortune?.fortunes || [];
 
+    console.log("Loaded fortunes:", fortunes); // eslint-disable-line no-console
+    console.log("Fortune count:", fortunes.length); // eslint-disable-line no-console
+
     if (!Array.isArray(fortunes) || fortunes.length === 0) {
       this.fortune = "Translation error";
     } else {
       const index = this.dailyIndex % fortunes.length;
+      console.log("Selected index:", index); // eslint-disable-line no-console
       this.fortune = fortunes[index];
+      console.log("Selected fortune:", this.fortune); // eslint-disable-line no-console
     }
 
     this.opened = true;
@@ -74,12 +79,16 @@ class CommunityFortune extends Component {
       const expiry = parseInt(localStorage.getItem("hideFortune") || "0", 10);
       const now = Date.now();
 
+      console.log("hideFortune expiry:", expiry, "current time:", now); // eslint-disable-line no-console
+
       if (!expiry || now > expiry) {
         localStorage.removeItem("hideFortune");
         this.hidden = false;
       } else {
         this.hidden = true;
       }
+
+      console.log("Fortune hidden state:", this.hidden); // eslint-disable-line no-console
     } catch (e) {
       console.error("쿠키 표시 여부 체크 중 에러:", e);
       this.hidden = false;
